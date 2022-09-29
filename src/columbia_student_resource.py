@@ -13,12 +13,7 @@ class ColumbiaStudentResource:
         pw = os.environ.get("DBPW")
         host = os.environ.get("DBHOST")
 
-        usr = os.environ.get("DBUSER")
-        pw = os.environ.get("DBPW")
-        h = os.environ.get("DBHOST")
-
         conn = pymysql.connect(
-
             user=user,
             password=pw,
             host=host,
